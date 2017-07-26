@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/RL1"
+    tools:context=".CatalogActivity">
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- empty view for the list -->
+    <RelativeLayout
+        android:id="@+id/empty_view"
+        style="@style/RL2">
+
+        <ImageView
+            android:id="@+id/empty_basket_image"
+            style="@style/IV1" />
+
+        <TextView
+            android:id="@+id/empty_title_text"
+            style="@style/TV1" />
+
+        <TextView
+            android:id="@+id/empty_subtitle_text"
+            style="@style/TV2" />
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_button"
+        style="@style/FAB" />
+
+</RelativeLayout>

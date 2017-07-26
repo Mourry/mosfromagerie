@@ -1,0 +1,320 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- editor theme -->
+    <style name="EditorTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/editorColorPrimary</item>
+        <item name="colorPrimaryDark">@color/editorColorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for the ScrollView on the app. -->
+
+    <style name="SV">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <!-- Style for the LinearLayouts on the app. -->
+
+    <style name="LLV1">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">@dimen/activity_margin</item>
+    </style>
+
+    <style name="LLH2">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="LLV3">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:paddingLeft">@dimen/l_l_padding</item>
+        <item name="android:paddingRight">@dimen/l_l_padding</item>
+        <item name="android:paddingStart">@dimen/l_l_padding</item>
+        <item name="android:paddingEnd">@dimen/l_l_padding</item>
+        <item name="android:paddingTop">@dimen/label_padding_top</item>
+    </style>
+
+    <style name="LLH4">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:paddingLeft">@dimen/l_l_padding</item>
+        <item name="android:paddingRight">@dimen/l_l_padding</item>
+        <item name="android:paddingStart">@dimen/l_l_padding</item>
+        <item name="android:paddingEnd">@dimen/l_l_padding</item>
+        <item name="android:paddingTop">@dimen/label_padding_top</item>
+    </style>
+
+    <style name="LLV5">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingLeft">@dimen/l_l_padding</item>
+        <item name="android:paddingRight">@dimen/l_l_padding</item>
+        <item name="android:paddingStart">@dimen/l_l_padding</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_toRightOf">@+id/list_item_cheese_image_view</item>
+        <item name="android:layout_toEndOf">@+id/list_item_cheese_image_view</item>
+    </style>
+
+    <style name="LinearLayoutStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:paddingLeft">@dimen/l_l_padding</item>
+        <item name="android:paddingRight">@dimen/l_l_padding</item>
+
+    </style>
+
+    <!-- Style for the RelativeLayouts on the app. -->
+
+    <style name="RL1">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="RL2">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="RL3">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:paddingLeft">@dimen/l_l_padding</item>
+        <item name="android:paddingRight">@dimen/l_l_padding</item>
+        <item name="android:paddingStart">@dimen/l_l_padding</item>
+        <item name="android:paddingEnd">@dimen/l_l_padding</item>
+    </style>
+
+    <style name="RL4">
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/colorPrimaryLight</item>
+    </style>
+
+    <!-- Style for the ImageViews on the app. -->
+
+    <style name="IV1">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:src">@drawable/bag</item>
+    </style>
+
+    <style name="IV2">
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:layout_width">@dimen/list_item_height</item>
+    </style>
+
+    <style name="IV3">
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:layout_width">@dimen/list_item_height</item>
+        <item name="android:contentDescription">@string/cheese_image_view_placeholder</item>
+        <item name="android:src">@drawable/cheese</item>
+    </style>
+
+    <style name="IV4">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginEnd">@dimen/sale_image_margin</item>
+        <item name="android:layout_marginRight">@dimen/sale_image_margin</item>
+        <item name="android:contentDescription">@string/cheese_image_view_placeholder</item>
+        <item name="android:src">@drawable/sale</item>
+    </style>
+
+
+    <!-- Style for the TextViews on the app. -->
+
+    <style name="TV1">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_below">@+id/empty_basket_image</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:paddingTop">@dimen/empty_view_title_padding_top</item>
+        <item name="android:text">@string/empty_view_title_text</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="TV2">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_below">@+id/empty_title_text</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:paddingTop">@dimen/empty_view_subtitle_padding_top</item>
+        <item name="android:text">@string/empty_view_subtitle_text</item>
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="TV3">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">@dimen/label_padding_top</item>
+        <item name="android:paddingLeft">@dimen/label_padding_left</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:text">@string/overview_label</item>
+    </style>
+
+    <style name="TV4">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">@dimen/label_padding_top</item>
+        <item name="android:paddingLeft">@dimen/label_padding_left</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:text">@string/price_label</item>
+    </style>
+
+    <style name="TV5">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:paddingRight">@dimen/activity_margin</item>
+        <item name="android:paddingTop">@dimen/activity_margin</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:text">@string/edit_cheese_price_units</item>
+    </style>
+
+    <style name="TV6">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">@dimen/label_padding_top</item>
+        <item name="android:paddingLeft">@dimen/label_padding_left</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:text">@string/quantity_label</item>
+    </style>
+
+    <style name="TV7">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">@dimen/label_padding_top</item>
+        <item name="android:paddingLeft">@dimen/label_padding_left</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:text">@string/supplier_label</item>
+    </style>
+
+    <style name="TV8">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">@dimen/label_padding_top</item>
+        <item name="android:paddingLeft">@dimen/label_padding_left</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:text">@string/order_label</item>
+    </style>
+
+    <style name="TV9">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:text">@string/cheese_price</item>
+    </style>
+
+    <style name="TV10">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">top</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:text">@string/cheese_quantity</item>
+    </style>
+
+    <style name="TV11">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:text">@string/cheese_name</item>
+    </style>
+
+
+    <!-- Style for the EditTexts on the app. -->
+
+    <style name="ET1">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+
+    <!-- Style for the Buttons on the app. -->
+
+    <style name="Button1">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">@string/edit_add_image_button</item>
+    </style>
+
+    <style name="Button2">
+        <item name="android:layout_height">@dimen/button_W_H</item>
+        <item name="android:layout_width">@dimen/button_W_H</item>
+    </style>
+
+    <style name="Button3">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">@string/edit_order_intent_button</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <!-- Style for the spinner on the app. -->
+
+    <style name="spinner">
+        <item name="android:layout_height">@dimen/spinner</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+
+
+    <!-- Style for the FAB on the app. -->
+
+    <style name="FAB">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_margin">@dimen/fab_margin</item>
+        <item name="android:src">@drawable/cheese</item>
+    </style>
+
+</resources>
+

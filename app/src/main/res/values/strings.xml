@@ -1,0 +1,71 @@
+<resources>
+    <!-- application name -->
+    <string name="app_name">mosfromagerie</string>
+
+    <!-- empty view -->
+    <string name="empty_view_title_text">Your cart is empty…</string>
+    <string name="empty_view_subtitle_text">Get started by adding a cheese</string>
+
+    <!-- actions -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+    <string name="action_delete_all_entries">Delete All Cheese</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- list item -->
+    <string name="cheese_image_view_placeholder">Cheese image view placeholder</string>
+    <string name="cheese_name">name</string>
+    <string name="cheese_price">price</string>
+    <string name="cheese_quantity">quantity</string>
+    <string name="sale_image_view_placeholder">sale image view placeholder</string>
+
+    <!-- supplier array options -->
+    <string name="supplier_unknown">Unknown</string>
+    <string name="supplier_farm">Farm</string>
+
+    <!-- editor -->
+    <string name="overview_label">Overview:</string>
+    <string name="edit_hint_cheese_name">Add cheese name</string>
+    <string name="edit_add_image_button">Add an image</string>
+    <string name="price_label">Price:</string>
+    <string name="edit_hint_cheese_price">Add cheese price</string>
+    <string name="edit_cheese_price_units">€</string>
+    <string name="quantity_label">Quantity:</string>
+    <string name="editor_minus_button">-</string>
+    <string name="edit_plus_button">+</string>
+    <string name="edit_initial_cheese_quantity">1</string>
+    <string name="supplier_label">Supplier:</string>
+    <string name="order_label">Order:</string>
+    <string name="edit_order_intent_button">Order from supplier</string>
+
+    <string name="editor_activity_title_new_cheese">Add Cheese</string>
+    <string name="editor_activity_title_edit_cheese">Edit Cheese</string>
+    <string name="editor_delete_cheese_failed">Error with deleting cheese</string>
+    <string name="editor_delete_cheese_successful">Cheese deleted</string>
+    <string name="editor_insert_cheese_successful">Cheese saved</string>
+    <string name="editor_insert_cheese_failed">Error with saving cheese</string>
+    <string name="editor_update_cheese_successful">Cheese updated</string>
+    <string name="editor_update_cheese_failed">Error with updating cheese</string>
+
+    <!-- user messages -->
+    <string name="no_cheese_to_sell">No inventory to sell</string>
+    <string name="name_required">Name required</string>
+    <string name="price_required">Price required</string>
+    <string name="quantity_required">Quantity required</string>
+    <string name="photo_required">Photo required</string>
+    <string name="no_negative_quantity">Quantity cannot be negative</string>
+
+    <!-- dialog messages-->
+    <string name="delete_dialog_msg">Delete this cheese?</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- dialog buttons -->
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- email strings-->
+    <string name="email_subject">Order request for cheese</string>
+    <string name="email_message">We would like to order the following cheese:</string>
+</resources>

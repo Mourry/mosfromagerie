@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="button_W_H">40dp</dimen>
+    <dimen name="spinner">48dp</dimen>
+
+    <dimen name="empty_view_title_padding_top">16dp</dimen>
+    <dimen name="empty_view_subtitle_padding_top">8dp</dimen>
+
+    <dimen name="list_item_height">100dp</dimen>
+    <dimen name="sale_image_margin">16dp</dimen>
+
+    <dimen name="label_padding_top">32dp</dimen>
+    <dimen name="label_padding_left">16dp</dimen>
+    <dimen name="l_l_padding_top">20dp</dimen>
+    <dimen name="l_l_padding">4dp</dimen>
+</resources>
